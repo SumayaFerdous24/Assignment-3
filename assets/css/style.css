@@ -1,0 +1,199 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap');
+
+/* 1. Common codes */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5{
+    font-weight: 500;
+    font-family: "Rubik Wet Paint", system-ui;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* 2. Grid */
+.col-1 {
+    width: 8.33%;
+    padding:15px;
+}
+.col-2{
+    width: 16.67%;
+    padding:15px;
+}
+.col-3{
+    width: 25%;
+    padding:15px;
+}
+.col-4{
+    width: 33.33%;
+    padding:15px;
+}
+.col-5{
+    width: 41.67%;
+    padding:15px;
+}
+.col-6{
+    width: 50%;
+    padding:15px;
+}
+.col-7{
+    width: 58.33%;
+    padding:15px;
+}
+.col-8{
+    width: 66.67%;
+    padding:15px;
+}
+.col-9{
+    width: 75%;
+    padding:15px;
+}
+.col-10{
+    width: 83.33%;
+    padding:15px;
+}
+.col-11{
+    width: 91.67%;
+    padding:15px;
+}
+.col-12{
+    width: 100%;
+    padding:15px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+/* 3. Flag */
+.flag{
+    text-align: center;
+    height: 600px;
+    width: 600px;
+}
+.title{
+   text-transform: uppercase;
+   font-size: 35px;
+   padding: 35px 0;
+   color: red;
+}
+.green{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(0, 57, 0);
+    position: relative;
+    z-index: 0;
+}
+.red{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    background-color: red;
+    transform: translate(-50%, -50%);
+}
+
+/* 4. Social-media share icons */
+
+.share-icon-area {
+	padding: 100px 0;
+    margin: 100px 0;
+	position: relative;
+    background-color: #e7e7e7;
+}
+.single-share-icon {
+	height: 40px;
+	width: 150px;
+	background-color: #0D2934;
+	border-radius: 20px;
+	position: absolute;
+	left: 97%;
+}
+.single-share-icon:hover{
+    left: 91%;
+    transition: 1s ease-in;
+}
+
+.single-share-icon i{
+    background-color: #fff;
+    color: #0D2934;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 16px;
+    margin-right: 15px;
+    border: 2px solid #0D2934;
+}
+.single-share-icon span {
+	color: #fff;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+.face{
+    top: 15%;
+}
+.you{
+    top: 30%;
+}
+.twi{
+    top: 45%;
+}
+.inb{
+    top: 60%;
+}
+.git{
+    top: 75%;
+}
+
+/* 5. Social-media icon */
+.social-media-icon-area{
+   height: 300px;
+   background-image: url(../images/icon-bg.jpg);
+   background-position: center;
+   background-size: cover;
+   margin-bottom: 100px;
+   background-repeat: no-repeat;
+   position: relative;
+}
+.icons {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+.icons li{
+    display: inline-block;
+}
+.icons li a {
+	display: block;
+	height: 45px;
+	width: 45px;
+	line-height: 45px;
+	border: 1px solid #fff;
+	color: #fff;
+	text-align: center;
+	border-radius: 100%;
+	margin: 0 15px;
+	font-size: 18px;
+}
+.icons li :hover{
+    background-color: #0D2934;
+}
